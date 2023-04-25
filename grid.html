@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts Grids</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navmenu" class="home">
+
+        <img src="https://cdn2.iconfinder.com/data/icons/apple-tv-1/512/apple_logo-512.png" id="logo">
+          <div id="shortcuts">
+             <a href="#">AirPods</a>
+             <a href="#" class="store" onmouseover="storeenter()"  >Store</a>
+             <a href="#">Mac</a>
+             <a href="#">iPad</a>
+             <a href="#">iPhone</a>
+             <a href="#">Watch</a>
+             <a href="#">Apple Watch</a>
+             <a href="#">TV & Home</a>
+             <a href="#">Entertainment</a>
+             <a href="#">Support</a>
+           </div>
+       <img src="http://127.0.0.1:5500/Fully_Responsive_Site/search_FILL0_wght400_GRAD0_opsz48%20(1).png" id="searchicon">
+       <img src="http://127.0.0.1:5500/Fully_Responsive_Site/shopping_cart_FILL0_wght400_GRAD0_opsz48.png" id="shopicon">
+
+        </div>
+
+
+        <div id="ads" class="home">
+          <div id="images">
+            
+              <img src="https://www.apple.com/v/airpods/t/images/chapternav/airpods_2gen_light__ckwbqlgv1r9e_large.svg" alt="" >
+             
+            
+           
+              <img src="https://www.apple.com/v/airpods/t/images/chapternav/airpods_3gen_light__6r7zooyk4lua_large.svg" alt="">
+              
+            
+          
+              <img src="https://www.apple.com/v/airpods/t/images/chapternav/airpods_pro_light__ets5a19rt3au_large.svg" alt="">
+              
+            
+            
+              <img src="https://www.apple.com/v/airpods/t/images/chapternav/airpods_max_light__cvaaddhgazqu_large.svg" alt="">
+       
+            
+           
+              <img src="https://www.apple.com/v/airpods/t/images/chapternav/airpods_compare_light__cmuvdvbxj1w2_large.svg" alt="">
+             
+            
+              <img src="https://www.apple.com/v/airpods/t/images/chapternav/apple_music_light__fexraacz3dme_large.svg" alt="">
+              
+            
+              
+               
+               
+           
+               
+               
+          </div>
+          <div id="content">
+               
+               <p>Get 6 months of Apple Music free with your AirPods.<a href="#">Learn More</a></p>
+               
+
+
+          </div>
+
+
+        </div>
+        <div id="video"class="home">
+           <video autoplay plays-inline muted loop id="back_video">
+            <source src="videoplayback (1).mp4">
+           </video>
+
+        </div>
+
+
+       <div id="storemenu" onmouseout="out()">
+         <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Milf</li>
+            <li>Porn</li>
+         </ul>
+
+
+       </div>
+
+
+
+
+
+
+
+    </div>
+
+    <script>
+         function storeenter(){
+          let storemenu = document.getElementById("storemenu");
+          if(storemenu.style.display == 'none'){
+            storemenu.style.display = 'block';
+            back_video.style.opacity = '0.2';
+            
+          }
+          else{
+            storemenu.style.display = 'none'
+            back_video.style.opacity = '1.2';
+          }
+         }
+         function out(){
+          if(storemenu.style.display != 'none'){
+            storemenu.style.display = 'none';
+            back_video.style.opacity = '1.2';
+             
+          }
+          else{
+            storemenu.style.display = 'block';
+            
+            back_video.style.opacity = '0.2';
+          }
+         }
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
